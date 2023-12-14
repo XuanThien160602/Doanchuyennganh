@@ -1,0 +1,530 @@
+.container{
+    width: 1260px;
+    height: auto;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* header */
+.header{
+    width: auto;
+    height: auto;
+    background-color: #F2B705;
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    width: 20%;
+    height: auto;
+}
+.header-logo>img{
+    /* width: 250px; */
+    width: 100%;
+    height: auto;
+}
+.header-search{
+    width: 80%;
+    height: auto;
+}
+.header-search-menu{
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.header-search-menu-content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-search-logosearch{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0 5px;
+}
+.header-search-logosearch>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.header-search-logosearch-img{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.header-search-logosearch-img>img{
+    height: 100%;
+}
+.header-search-logosearch-boxsearch{
+    width: 55%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+#header-search-logosearch-boxsearch{
+    width: 80%;
+    height: 90%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+#header-search-logosearch-boxsearch-button{
+    width: 20%;
+    border: none;
+    height: 80%;
+    border-radius: 5px;
+    background-color: #F29F05;
+    margin: 5px;
+}
+.header-search-logosearch-menu{
+    height: 100%;
+    width: 40%;
+}
+.header-search-logosearch-menu-icons{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-search-logosearch-menu-icons-img{
+    height: 100%;
+}
+.header-search-logosearch-menu-icon{
+    width: 35%;
+    height: 100%;
+    border: 10px;
+    border-radius: 5px;
+    background-color: #F29F05;
+    display: flex;
+    align-items: center;
+}
+#header-search-logosearch-menu-icon-button{
+    height: 100%;
+    background-color: #F29F05;
+    border: none;
+}
+/* body */
+.body{
+    width: auto;
+    height: auto;
+    background-color: #EEEEEE;
+}
+.body_filter{
+    width: auto;
+    height: 40px;
+    padding: 10px 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.body_filter-filterimg{
+    height: 100%;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-areafilter{
+    height: 100%;
+    width: 110px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-classify{
+    height: 100%;
+    width: 120px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-price{
+    height: 100%;
+    width: 50px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-carcompany{
+    height: 100%;
+    width: 80px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-insurance{
+    height: 100%;
+    width: 90px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-guarantee{
+    height: 100%;
+    width: 90px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-year{
+    height: 100%;
+    width: 110px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-status{
+    height: 100%;
+    width: 90px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-kilometers{
+    height: 100%;
+    width: 100px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-video{
+    height: 100%;
+    width: 100px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-fuel{
+    height: 100%;
+    width: 90px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-payload{
+    height: 100%;
+    width: 80px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+.body_filter-select{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.body_menulogo{
+    width: auto;
+    height: 230px;
+    padding: 10px 120px;
+}
+.body_menulogo-title{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+.body_menulogo-scrolllogo{
+    height: 100px;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+}
+.body_meulo_logo{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.body_menulogo-img{
+    height: 60px;
+    width: 60px;
+}
+.body_menulogo-scrollmenu{
+    height: 40px;
+    width: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.body_menulogo_menu{
+    height: 40px;
+    width: auto;
+    padding: 0 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.body_content{
+    width: auto;
+    height: auto;
+    padding: 10px 120px;
+}
+.body_content_title{
+    height: 50px;
+    width: auto;
+    background-color: white;
+    display: flex;
+}
+.body_content_title1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.body_content_title2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+}
+.body_content_title1-div{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.body_content_title1-div1{
+    color: #F29F05;
+}
+.body_content_title2-div{
+    height: 100%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.body_content_product{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.body_content_product_info{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    background-color: white;
+}
+.body_content_product_boxinfo{
+    width: 500px;
+    height: 150px;
+    display: flex;
+}
+.body_content_product_img{
+    width: 200px;
+    height: 150px;
+}
+.body_content_product-img{
+    height: 100%;
+    width: 100%;
+}
+.body_content_product_details{
+    width: 280px;
+    height: 130px;
+    padding: 10px;
+}
+.body_content_product-details{
+    width: auto;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.body_content_product-title{
+    font-size: 15px;
+    width: auto;
+    height: 25%;
+}
+.body_content_product-info{
+    color: gray;
+    width: auto;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.body_content_product-price{
+    width: auto;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: red;
+}
+.body_content_product-call{
+    justify-content: space-between;
+    width: auto;
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+.body_content_product-address{
+    color: gray;
+    font-size: 12px;
+}
+.body_content_product_button{
+    height: 30px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_content_product_button>a{
+    width: 70px;
+    height: 30px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    color: white;
+    background-color: red;
+}
+.body_content_quicksearch{
+    width: auto;
+    height: 100px;
+    padding: 10px 0;
+}
+.body_content_quicksearch-title{
+    width: auto;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_content_quicksearch-price{
+    width: auto;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_content_quicksearch-title1{
+    width: 50px;
+    text-align: center;
+}
+.body_content_quicksearch-price1{
+    width: 120px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_content_quicksearch-price2{
+    width: 130px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_content_quicksearch-price3{
+    width: 100px;
+    height: 30px;
+    margin: 0 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body_content_page{
+    width: auto;
+    height: 30px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.body_content_page-div{
+    width: 30%;
+    height: 100%;
+}
+.body_content_page-divcenter{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.body_content_page-number{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-info{
+    width: auto;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 10 0px;
+    color: gray;
+}
+.body_keysearch{
+    margin: 10px 0;
+    padding: 10px;
+    background-color: white;
+}
+.body_keysearch-key{
+    display: flex;
+}
+.body_keysearch-key-info{
+    width: 25%;
+    color: gray;
+}
+/* footer */
+.footer{
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    background-color: white;
+}
+.footer_content{
+    width: 20%;
+    height: auto;
+}
+.footer_content-title{
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+.footer_content-info{
+    width: auto;
+    height: 140px;
+}
+.footer_content-info1{
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.footer_content-link{
+    width: auto;
+    display: flex;
+    padding: 10px;
+}
+.footer_content-link1{
+    width: 20%;
+    height: auto;
+}
